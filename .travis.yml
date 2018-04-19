@@ -4,5 +4,5 @@ jdk:
  deploy:
  provider: heroku
  api-key:
-  secure: c0b9498c-28ac-43f5-be0c-4150fbe97604
+  secure: $
  app: travis941
