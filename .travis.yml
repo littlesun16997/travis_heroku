@@ -1,8 +1,8 @@
 language: java
 jdk:
  - oraclejdk8
- deploy:
+deploy:
  provider: heroku
  api-key:
-  secure: $
+  secure: $HEROKU_AUTH_TOKEN
  app: travis941
